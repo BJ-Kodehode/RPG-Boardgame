@@ -1,7 +1,12 @@
+body {
+  text-align: center;
+}
+
 table {
   border-collapse: collapse;
   margin: 20px auto;
 }
+
 td {
   width: 60px;
   height: 60px;
@@ -9,14 +14,29 @@ td {
   text-align: center;
   font-size: 24px;
 }
+
 .player {
   background-color: blue;
   color: white;
 }
+
 .treasure {
   background-color: gold;
 }
+
 .monster {
   background-color: red;
   color: white;
+}
+
+.door {
+  background-color: green;
+  color: white;
+}
+
+select,
+button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px;
 }

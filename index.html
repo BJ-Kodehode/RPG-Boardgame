@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quest for the Dragon's Treasure</title>
     <link rel="stylesheet" href="style.css" />
-    <script type="module" src="main.js"></script>
+    <script defer src="main.js"></script>
+    <!-- Ensure the script is deferred -->
   </head>
   <body>
     <h1>Quest for the Dragon's Treasure</h1>
+
+    <label for="boardSize">Select Board Size:</label>
+    <select id="boardSize">
+      <option value="5">5x5</option>
+      <option value="6">6x6</option>
+    </select>
+
+    <button id="startGameButton">Start Game</button>
+
     <table id="gameBoard"></table>
     <div id="playerStats"></div>
     <div id="gameMessages"></div>
