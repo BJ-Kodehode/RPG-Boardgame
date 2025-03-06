@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+td {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 24px;
+}
+.player {
+  background-color: blue;
+  color: white;
+}
+.treasure {
+  background-color: gold;
+}
+.monster {
+  background-color: red;
+  color: white;
+}
